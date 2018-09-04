@@ -1,0 +1,113 @@
+body {
+    background-image: linear-gradient(to bottom, #234b8c 50%, #f9f9f9 50%);
+    padding: 0;
+    margin: 0;
+}
+
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 40px 8px 10px 8px;
+    color: #cccccc;
+}
+
+.error>h2 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 13px;
+    text-transform: none;
+    display: inline-block;
+    margin: 1px 8px 7px 8px;
+    color: #f74a4a;
+}
+
+h2.inactive {
+    color: #cccccc;
+}
+
+h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+}
+
+img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+a {
+    font-family: sans-serif;
+    color: #92badd;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+}
+
+.form {
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.footer {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+input[type=text], input[type=password] {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    border: none;
+    color: black;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 90%;
+    border: 2px solid #f6f6f6;
+    border-radius: 5px 5px 5px 5px;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border-bottom: 2px solid #5fbae9;
+}
+
+input[type=submit] {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 20px 20px 20px;
+}

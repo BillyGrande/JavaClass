@@ -1,0 +1,177 @@
+body {
+    background: #f5f5f5;
+}
+
+/* Grid Information */
+
+.grid {
+    margin-top: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+}
+
+.profile {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.average {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.semester {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.pass {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.failed {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.news {
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+
+
+.stats {
+    grid-column: 3 / 5;
+    grid-row: 3;
+}
+
+/* Basic Panel */
+
+.panel {
+    text-align: center;
+    color: #fdf9f9;
+    /* border: 1px solid #dadada;
+    background-color: #f9f9f9;
+    border-radius: 6px; */
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+.panel h2 {
+    margin: 0;
+    font-size: 45px;
+}
+
+.panel .info {
+    padding: 30px;
+}
+
+.panel p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.learn_more p {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/* Panel1 Styling */
+
+.panel1 {
+    text-align: center;
+    background: #ffffff;
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+.panel1 .header {
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.header h2 {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color: #4a5c72;
+}
+/* Profile Information Panel */
+
+table {
+    margin: 15px;
+    text-align: left;
+}
+
+th{
+    padding-right: 30px;
+}
+
+/* Average Information Panel */
+.average .info {
+    background: #2980b9;
+}
+
+.average .learn_more {
+    background: #2573a6;
+}
+
+/* Semester Information Panel */
+.semester .info {
+    background: #8e44ad;
+}
+
+.semester .learn_more {
+    background: #803d9b;
+}
+
+/* Pass Information Panel */
+
+.pass .info {
+    background: #16a085;
+}
+
+.pass .learn_more {
+    background: #149077;
+}
+
+/* Failed Information Panel */
+
+.failed .info {
+    background: #e74c3c;
+}
+
+.failed .learn_more {
+    background: #cf4436;
+}
+
+
+/* News Panel */
+
+.top {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 2px solid #ebebeb;
+    padding-left: 10px;
+}
+
+.news ul {
+    list-style: none;
+    margin-left: 10px;
+    border-left: 2px solid black;
+}
+
+.news li {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+
